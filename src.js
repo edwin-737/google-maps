@@ -65,7 +65,6 @@ function initMap() {
         console.log(place.place_id);
         console.log(place.geometry.location);
     });
-    // autocomplete.bindTo("bounds", map);
     // service.findPlaceFromQuery(request, function (results, status) {
     //     if (status === google.maps.places.PlacesServiceStatus.OK) {
     //         contentString = results[0].geometry.location;
